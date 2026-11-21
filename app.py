@@ -15,7 +15,7 @@ def home():
 
 @app.route("/api/health")
 def health():
-    return jsonify(status="ok"
+    return jsonify(status="ok")
 
 if __name__ == "__main__":
     # Utilisé uniquement en local
